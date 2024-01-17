@@ -20,11 +20,12 @@ body{
 .navbar--container{
   display: flex;
   height: 56px;
-  justify-content: space-around;
+  justify-content: space-between;
   max-width: 1440px;
   margin: 0 auto;
   position: relative; 
   background-color: #191919;
+  
 }
 
 body{
@@ -39,6 +40,7 @@ body{
  width: 77px;
  margin: 12px 10px;
  font-weight: bolder;
+ font-size: 1rem;
 }
 
 .nav--logo{

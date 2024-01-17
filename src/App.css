@@ -1,4 +1,16 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: url("../photos/background-1481803_1920.jpg");
+  background-image: linear-gradient(180deg, #191919 5%, rgba(255, 255, 255, 0), #191919 95%), url("../photos/background-1481803_1920.jpg");
+  height: 1058px;
+}
 
+.main--info{
+
+}
 
 
 
