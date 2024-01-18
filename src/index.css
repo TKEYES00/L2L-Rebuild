@@ -20,18 +20,19 @@ body{
 .navbar--container{
   display: flex;
   height: 56px;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 1440px;
   margin: 0 auto;
   position: relative; 
   background-color: #191919;
+  padding: 0px 155px;
   
 }
 
 body{
   margin:0 auto;
 }
-
+ /* Nav bar */
 .btnSmall--style{
  background-color: #F2D07C;
  border-radius : 5px;
@@ -41,6 +42,11 @@ body{
  margin: 12px 10px;
  font-weight: bolder;
  font-size: 1rem;
+}
+.slogan{
+  max-width: 1440px;
+  margin: 0 auto;
+  
 }
 
 .nav--logo{
@@ -52,8 +58,41 @@ body{
 
 .nav--pages{
   font-size: 1.25rem;
+  
+}
+/* main */
+
+.main{
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+.main--container{
+  display: flex;
+  max-width: 1440px;
+  padding: 40px 155px;
+  
+  margin: 0 auto;
+  
+}
+.main--buttonContainer{
+  padding: 15px 44px;
+  
+}
+.main--bigButton{
+  background-color: #F2D07C;
+ border-radius : 6px;
+ color: black;
+ height: 69px;
+ width: 189px;
+ margin: 12px 10px;
+ font-weight: bolder;
+ font-size: 1rem;
 }
 
-
-
-
+.main--creditAnimation{
+  width: 480px;
+  height: 400px;
+  padding: 0px 60px;
+  
+}

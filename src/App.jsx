@@ -3,6 +3,8 @@ import React from "react"
 import Header from './componenets/Header'
 import './App.css'
 
+import Main from './componenets/main'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,17 +12,14 @@ function App() {
   return (
     <>
     <Header />
-    
-    <main className='main'>
-    <h1 className="maintittle">Leverage 2 Live Rebuild</h1>
-      <div main--info>
-        <h3 className='slogan'>sdsdtsdgsdgsdf</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla p</p>
-      </div>  
-      <div main--animation>
-        <h1>This is filler for the credit score animation</h1>
-      </div>
-    </main>
+    <div className='background-image'>
+    <h1 className="main--tittle">Leverage 2 Live </h1>
+    <h1 className='main--tittle'>Rebuild</h1>
+      <h2 className='slogan'>Slogan</h2>
+      <main className='main'>
+       <Main /> 
+      </main>
+    </div>
     
   </>
   )
