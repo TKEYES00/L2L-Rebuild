@@ -15,8 +15,9 @@
 body{
   display: block;
   background-color: #191919;
+  margin:0 auto;
 }
-
+/* Nav bar */
 .navbar--container{
   display: flex;
   height: 56px;
@@ -26,13 +27,8 @@ body{
   position: relative; 
   background-color: #191919;
   padding: 0px 155px;
-  
 }
-
-body{
-  margin:0 auto;
-}
- /* Nav bar */
+ 
 .btnSmall--style{
  background-color: #F2D07C;
  border-radius : 5px;
@@ -41,7 +37,6 @@ body{
  width: 77px;
  margin: 12px 10px;
  font-weight: bolder;
- font-size: 1rem;
 }
 .slogan{
   max-width: 1440px;
@@ -57,7 +52,7 @@ body{
 }
 
 .nav--pages{
-  font-size: 1.25rem;
+  font-size: 1rem;
   
 }
 /* main */
@@ -69,30 +64,40 @@ body{
 }
 .main--container{
   display: flex;
-  max-width: 1440px;
-  padding: 40px 155px;
+  justify-content: space-evenly;
+  width: 1440px;
+  padding: 40px;
+  padding-top: 100px;
+  flex-wrap: wrap;
   
-  margin: 0 auto;
-  
+  height: 600px;
+  justify-content: space-evenly;
 }
 .main--buttonContainer{
   padding: 15px 44px;
   
 }
 .main--bigButton{
-  background-color: #F2D07C;
- border-radius : 6px;
+background-color: #F2D07C;
+ border-radius : 10px;
  color: black;
  height: 69px;
  width: 189px;
  margin: 12px 10px;
  font-weight: bolder;
- font-size: 1rem;
+ font-size: 1.3rem;
 }
 
 .main--creditAnimation{
   width: 480px;
   height: 400px;
-  padding: 0px 60px;
+  padding: 0px 20px;
+  padding-left: 40px;
   
+  margin: 0; 
+}
+.main--infoButtonContainer{
+  
+  margin: 0;
+  height: 400px;
 }

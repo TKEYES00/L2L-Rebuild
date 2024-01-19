@@ -29,13 +29,24 @@ button, input[type="submit"], input[type="reset"] {
 .main--tittle{
   display: flex;
   margin: 0 auto;
-  padding: 0px, 155px;
+  padding-left: 225px;
   max-width: 1440px;
   color: #F2D07C;
   font-family: Montserrat;
   font-weight: bold;
+  font-size: 5rem;
+  line-height: 1;
+  letter-spacing: 1px;
+  flex-wrap: wrap;
+  padding-top: 72px;
+  
 }
-
+#numberColor{
+  color:white;
+}
+.rebuild{
+  padding-left: 450px;
+}
 .main--socialContainer{
   padding-left: 74px;
 }
@@ -47,7 +58,14 @@ button, input[type="submit"], input[type="reset"] {
  }
 
 .slogan{
-  padding: 44px 155px;
   display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  color: #F2D07C;
+  text-wrap: wrap;
+  width: 400px;
+  padding-top: 40px;
+  text-align: center;
 }
 
