@@ -8,6 +8,8 @@
   background-size: 1440px;
   background-repeat: no-repeat;
   background-position: center ;
+  height: 1200px;
+  
 }
 
 body{
@@ -15,38 +17,17 @@ body{
   margin: 0 auto;
 }
 
-.main--tittle{
-  margin-top: 50px;
-  text-align: center;
-  font-weight: 800;
-  font-size: 72px;
-  line-height: .85;
-  color: #F2D07C;
+.testimony{
+display: flex;
+justify-content: space-around;
 }
-
-#numberColor{
-  color: white;
-}
-.main--info{
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  padding-top: 100px;
-}
-.slogan{
-  padding: 0px 40px 60px 0px;
-  width: 400px;
-  margin-top: 50px;
-  text-align: center;
-}
-
 .creditEval{
-  padding: 40px 40px;
+  padding: 90px 40px;
   width: 400px;
   background-color:rgba(0, 0, 0, .6);
   border-radius: 20px;
-  font-size: 1.25rem;
-  
+  font-size: 1.5rem;
+  text-align: center;
 }
 .creditEval button{
   width: 100%;

@@ -14,7 +14,10 @@ export default function CreditScoreAnimation(){
       };
       
       return (
-        <Lottie options={defaultOptions} />
+        <Lottie options={defaultOptions} 
+        height={400}
+        width={480}/>
+
       )
       
 }

@@ -1,0 +1,35 @@
+.tittleSection{
+    display:flex;
+    justify-content: space-around;
+  }
+  
+  .main--tittle{
+    margin-top: 120px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 6rem;
+    line-height: .85;
+    color: #F2D07C;
+  }
+  
+  #numberColor{
+    color: white;
+  }
+ 
+  .slogan{
+    width: 600px;
+    text-align: left;
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .main--creditAnimation{
+    margin-top: 220px;
+  }
+  
+  .main-left button{
+    width: 350px;
+    height: 80px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
